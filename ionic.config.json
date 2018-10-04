@@ -1,0 +1,7 @@
+{
+  "name": "ironic-sample",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
