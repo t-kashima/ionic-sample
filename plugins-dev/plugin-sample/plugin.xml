@@ -8,7 +8,7 @@
 
   <js-module src="www/sample.js">
     <!-- 呼び出す時の名前 -->
-    <clobbers target="sample" />
+    <clobbers target="Sample" />
   </js-module>
 
   <!-- iOS -->
