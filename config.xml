@@ -3,7 +3,7 @@
     <name>ironic-sample</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
-    <content original-src="index.html" src="http://172.20.10.2:8100" />
+    <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -85,6 +85,5 @@
     <allow-navigation href="http://192.168.11.9:8101" sessionid="64b28daa" />
     <allow-navigation href="http://192.168.11.9:8100" sessionid="dfaf5828" />
     <plugin name="plugin-sample" spec="plugins-dev/plugin-sample" />
-    <allow-navigation href="http://172.20.10.2:8100" sessionid="46d2d86f" />
     <engine name="ios" spec="4.5.5" />
 </widget>
