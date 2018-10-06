@@ -1,9 +1,13 @@
 # ionic-sample
 
-## Command line
-
-Run with live-reload
+## Getting started
 
 ```
-ionic cordova emulate ios --target "iPhone-X" -lc
+$ npm install
+$ ionic cordova plugin add plugins-dev/plugin-sample
+$ ionic cordova prepare --platform ios
+$ open platforms/ios/ironic-sample.xcworkspace
+
+Build and Run on Xcode
 ```
+
