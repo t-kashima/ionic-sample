@@ -8,18 +8,18 @@ declare var Sample: any;
   templateUrl: 'home.html'
 })
 export class HomePage {
-
   constructor(public navCtrl: NavController, public platform: Platform) {
-    this.platform.ready().then(() => { 
-      Sample.hello('Tom!!!', this.onSuccess, this.onError);
-    }); 
+    // プラットフォーム (iOS) で処理の準備ができた時
+    this.platform.ready().then(() => {
+      Sample.hello('Tom!', this.onSuccess, this.onError);
+   });     
   }
-
+  
   onSuccess(message) {
-    alert(message);
+    console.log(message)
   }
 
-  onError() {
-    alert("error");
+  onError(error) {
+    console.log(`error: ${error}`);
   }
 }
